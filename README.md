@@ -2,7 +2,7 @@
 
 This is a plugin for the Goteo [OpenSource Crowdfunding Platform](https://goteo.org).
 
-This is the code of an example in the [documentation](goteofoundation.github.io/goteo/docs/developers/events.html) of the [Goteo Source Code](https://github.com/goteofoundation/goteo).
+This is the code of an example in the [documentation](http://goteofoundation.github.io/goteo/docs/developers/events.html#plugin) of the [Goteo Source Code](https://github.com/goteofoundation/goteo).
 
 ## What does it do?
 
