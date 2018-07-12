@@ -17,7 +17,14 @@ cd your-goteo-path/extend
 git clone https://github.com/microstudi/goteo-project-twitter-plugin.git
 ```
 
-Now got to https://apps.twitter.com, create a new custom app, grab the Consumer Key and Secret, generate an Access Token and Secret.
+Install the required dependencies:
+
+```bash
+cd your-goteo-path/extend/goteo-project-twitter-plugin
+composer install
+```
+
+Now go to https://apps.twitter.com, create a new custom app, grab the Consumer Key and Secret, generate an Access Token and Secret.
 
 Then add in your `config/settings.yml`, in the section "plugins":
 
@@ -33,7 +40,7 @@ plugins:
 
 ```
 
-That's it, everytime a project is published, a twit will be created in the account where the Twitter app is created.
+That's it, every time a project is published, a twit will be created in the account where the Twitter app is created.
 
 @Author
 Ivan Vergés
